@@ -4,5 +4,6 @@
 
 int main(void) {
 	printf("Welcome to C!\n");
+	printf("demo");
 	return 0;
 }
