@@ -18,9 +18,11 @@ int main(void) {
 		scanf("%d",&diem2);
 			printf("nhap so diem bai tap : \n");
 		scanf("%d",&diem3);
+		if(diem1>=0 && diem2>=0 && diem3>=0 && diem1<=20 && diem2<=15 && diem3 <=10 )
+		{
 		if(diem1<8)
 		{
-			printf("thi lai ly thuyet");
+			printf("thi lai ly thuyet\n");
 		//	return 0;
 		}
 	//	else{
@@ -29,7 +31,7 @@ int main(void) {
 	//	scanf("%d",&diem2);
 		if(diem2<6)
 			{
-			printf("thi lai thuc hanh");
+			printf("thi lai thuc hanh \n");
 		//	return 0;
 		}
 	//	else{
@@ -37,7 +39,7 @@ int main(void) {
 //		scanf("%d",&diem3);
 		if(diem3<4)
 			{
-			printf("thi lai bai tap");
+			printf("thi lai bai tap \n");
 		//	return 0;
 		}
 	//	else{
@@ -45,6 +47,11 @@ int main(void) {
 		{
 			printf("Chuc mung! ban pass roi nhe \n");
 		}
+	}
+	else 
+	{
+			printf("Nhap lai ! ban nhap sai diem: \n");
+	}
 
 //	}
 //	}
