@@ -30,7 +30,7 @@ int ruttien()
 		st=st-c;
 		printf("so du hien tai %d VND \n",st);
 	}
-	return 0;
+	//return 0;
 }
 int chuyenkhoan()
 {       
@@ -50,10 +50,10 @@ int chuyenkhoan()
 		st=st-stchuyen;
 		printf("\nSo du tai khoan  %d VND",st);
 		}
-	
+	return st;
 }
 int sodu()
-{
+{    
 	printf("So du trong tai khoan cua ban la: %d VND \n",st);
 }
 
@@ -70,6 +70,7 @@ int main(int argc, char *argv[]) {
 	{
 		printf("\n\tBan da dang nhap thanh cong\n\n");
 		do{		
+		st=sdu();
 		printf("\t1. rut tien \t");
 		printf("\t2. chuyen khoan \n");
 		printf("\t3. Xem so du \t");
@@ -84,12 +85,11 @@ int main(int argc, char *argv[]) {
 				ruttien();
 					break;
 			case 2:
+				//st=sdu();
 				chuyenkhoan();
 					break;
 			case 3:
-			
-				sodu();
-				
+				sdu();
 				break;
 			case 4:
 				break;
