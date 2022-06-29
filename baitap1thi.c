@@ -12,9 +12,6 @@ void hamnhap()
 }
 int tinhtong(int a, int b)
 {
-	//int tong;
-//	tong= a+b;
-	//printf("tong la %d: \n",tong);
 	return a+b;
 }
 int nhan(int a, int b)
@@ -42,7 +39,7 @@ int main(int argc, char *argv[])
 		printf("\t3. tinh phep tru \n");
 		printf("\t4. tinh phep nhan \t");
 		printf("\t5. tinh phep chia \t");
-		printf("\t6. tinh phep chia \t");
+		printf("\t6. thoat \t");
 		printf("\n moi ban chon:");
 		fflush(stdin);
 			scanf("%d",&gt);
