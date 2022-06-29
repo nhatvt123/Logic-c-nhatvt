@@ -16,7 +16,6 @@ void xuat(int a[]){
 }
 int main(){
     int a[10];
-    int n;
     printf("\nNhap 10 so nguyen:\n "); 
     nhap(a);
     printf("\nMang vua nhap la: ");
