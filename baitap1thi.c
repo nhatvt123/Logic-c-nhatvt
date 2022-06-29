@@ -18,9 +18,11 @@ int nhan(int a, int b)
 {
 	return a*b;
 }
-int chia(int a, int b)
+float chia(int a, int b)
 {
-	return a/b;
+	float thuong;
+	thuong=(float)a/(float)b;
+	return thuong;
 }
 int tru(int a, int b)
 {
@@ -53,16 +55,20 @@ int main(int argc, char *argv[])
 				hamnhap();
 					break;
 			case 2:
+				 hamnhap();
 					printf("tong la %d: \n",tinhtong(a,b));
 					break;
 			case 3:
+				hamnhap();
 				printf("hieu la %d: \n",tru(a,b));
 				break;
 			case 4:
+				hamnhap();
 				printf("tich la %d: \n",nhan(a,b));
 				break;
 			case 5:
-				printf("ket qua chia la %d: \n",chia(a,b));
+				hamnhap();
+				printf("ket qua chia la %f: \n",chia(a,b));
 				break;
 			case 6:
 					break;
