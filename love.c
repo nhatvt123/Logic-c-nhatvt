@@ -38,11 +38,11 @@ int main() {
 	printf("\n");
 	for(i=n; i>=1; i--)
 	{
-		for(j=i; j<n; j++)
+	for(j=i; j<n; j++)
 		{
 			printf(" ");
 		}
-		if(i==n)
+	if(i==n)
 		{
 			for(j=1;j<=(n*2-len)/2; j++)
 			{

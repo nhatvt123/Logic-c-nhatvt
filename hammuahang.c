@@ -22,7 +22,6 @@ int main(int argc, char *argv[]) {
 	 fflush(stdin);
 	  scanf("%d",&slg);
 	tt+=tongtien(dgia,slg);
-	
 	 printf("\n Bam phim bat ky de tiep tuc\n \tDe dung lai bam phim n : \n");
 	 	 fflush(stdin);
 	 scanf("%c",&x);
